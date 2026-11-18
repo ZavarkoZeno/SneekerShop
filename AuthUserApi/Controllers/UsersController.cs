@@ -54,6 +54,7 @@ namespace AuthUserApi.Controllers
             return StatusCode(400, new { message = "Hiba", result = user });
         }
 
+        [Authorize(Roles = "teacher, student")]
         [HttpGet("allUser")]
         public async Task<IActionResult> AllUser()
         {

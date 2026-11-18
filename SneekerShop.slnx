@@ -3,4 +3,5 @@
     <File Path=".gitignore" />
   </Folder>
   <Project Path="AuthUserApi/AuthUserApi.csproj" />
+  <Project Path="WeatherForecast/WeatherForecast.csproj" Id="3e3f975c-8e1e-4177-ba22-78a96d4e62aa" />
 </Solution>
